@@ -2,6 +2,7 @@
 <p align="center">
 <a href="https://github.com/slftool/App/blob/master/LICENSE"><img src="https://img.shields.io/github/license/SLFTool/App.svg"></a>
 <a><img src="https://img.shields.io/github/last-commit/slftool/App.svg"></a>
+<a href="https://github.com/slftool/App/actions?query=workflow%3A%22Android+CI%22"><img src="https://img.shields.io/github/workflow/status/slftool/App/Android CI"></a>
 <a href="https://discord.gg/rpvdY42"><img src="https://discordapp.com/api/guilds/365206523749728266/embed.png"></a>
 </p>
 <p align="center">
