@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}
             override fun afterTextChanged(e: Editable?) {
-                if(!changed) {
+                if(!changed && (binding.letter.text?.length ?: 0) > 0) {
                     changed = true
                     binding.letter.setText(binding.letter.text.toString().takeLast(1))
                     binding.letter.setSelection(1)
